@@ -1,34 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://tangxinxu.github.io/</id>
-    <title>Bored Monkey</title>
-    <updated>2020-02-06T06:52:59.453Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://tangxinxu.github.io/"/>
-    <link rel="self" href="https://tangxinxu.github.io/atom.xml"/>
-    <subtitle>简单且无趣</subtitle>
-    <logo>https://tangxinxu.github.io/images/avatar.png</logo>
-    <icon>https://tangxinxu.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Bored Monkey</rights>
-    <entry>
-        <title type="html"><![CDATA[🤡漫长的春节]]></title>
-        <id>https://tangxinxu.github.io/post/xin-guan-fei-yan-xia-de-man-chang-de-chun-jie</id>
-        <link href="https://tangxinxu.github.io/post/xin-guan-fei-yan-xia-de-man-chang-de-chun-jie">
-        </link>
-        <updated>2020-02-06T05:42:52.000Z</updated>
-        <content type="html"><![CDATA[<p>在我司无聊的年会之后，我就开始为第一个不回家的春节作准备，尤其是我弟也要过来跟我一起过春节。我买一箱酒，2斤羊排、2斤牛肉、给王子买了一箱猫砂、一包猫粮、去菜场买了好几百块钱的菜，甚至还计划租一个「死亡搁浅」跟我弟一起送快递。<br>
-人类真的挺奇怪，现在看着这些计划，好像都是宅在家里的选择。但是在23号之后被迫自我封闭在家之后，所有的计划都变得索然无趣了。我弟拉着ps4和switch，我们一起就玩了一个「分手厨房」之后就再也没有一起玩过了。每一天的日常都变成今天吃什么，晚上吃什么……<br>
-<img src="https://tangxinxu.github.io//post-images/1580970734633.jpg" alt="" loading="lazy"><br>
-上海那几天一直在下雨。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[上海电影节]]></title>
-        <id>https://tangxinxu.github.io/post/shang-hai-dian-ying-jie</id>
-        <link href="https://tangxinxu.github.io/post/shang-hai-dian-ying-jie">
-        </link>
-        <updated>2019-11-09T06:47:08.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="2018">2018</h1>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>上海电影节 | Bored Monkey</title>
+<meta name="description" content="简单且无趣">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://tangxinxu.github.io//favicon.ico?v=1580971944912">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://tangxinxu.github.io//styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://tangxinxu.github.io/">
+        <img class="avatar" src="https://tangxinxu.github.io//images/avatar.png?v=1580971944912" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://tangxinxu.github.io/">
+        <h1 class="site-title">Bored Monkey</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+            <div class="feature-container" style="background-image: url('https://tangxinxu.github.io//post-images/shang-hai-dian-ying-jie.jpeg')">
+            </div>
+          
+          <h2 class="post-title">上海电影节</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-11-09</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://tangxinxu.github.io/tag/8-zSl02I9">
+                    自言自语
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <h1 id="2018">2018</h1>
 <h2 id="资产阶级的审慎魅力"><a href="https://movie.douban.com/subject/1303364/">资产阶级的审慎魅力</a></h2>
 <figure data-type="image" tabindex="1"><img src="https://i.loli.net/2019/11/25/l7DNwvb8Ce6umxG.jpg" alt="" loading="lazy"></figure>
 <center>SFC上海影城（长宁区新华路160号）</center>
@@ -59,6 +130,50 @@
 <p>电影很好看，我睡的很香。</p>
 <h2 id="虎口脱险-la-grande-vadrouille-1966"><a href="https://movie.douban.com/subject/1296909/">虎口脱险 La grande vadrouille (1966)</a></h2>
 <figure data-type="image" tabindex="7"><img src="https://i.loli.net/2019/11/25/heqfMC1QYXBdboc.jpg" alt="" loading="lazy"></figure>
-<center>上海美琪大剧院</center>]]></content>
-    </entry>
-</feed>
+<center>上海美琪大剧院</center>
+          </div>
+        </div>
+
+        
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">简单且无趣</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://tangxinxu.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
