@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tangxinxu.github.io/</id>
     <title>Bored Monkey</title>
-    <updated>2020-02-06T04:21:53.309Z</updated>
+    <updated>2020-02-06T06:44:15.897Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tangxinxu.github.io/"/>
     <link rel="self" href="https://tangxinxu.github.io/atom.xml"/>
@@ -11,13 +11,15 @@
     <icon>https://tangxinxu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Bored Monkey</rights>
     <entry>
-        <title type="html"><![CDATA[2020👿]]></title>
-        <id>https://tangxinxu.github.io/post/2020</id>
-        <link href="https://tangxinxu.github.io/post/2020">
+        <title type="html"><![CDATA[🤡新冠肺炎下的漫长的春节]]></title>
+        <id>https://tangxinxu.github.io/post/xin-guan-fei-yan-xia-de-man-chang-de-chun-jie</id>
+        <link href="https://tangxinxu.github.io/post/xin-guan-fei-yan-xia-de-man-chang-de-chun-jie">
         </link>
-        <updated>2020-02-06T03:43:04.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://tangxinxu.github.io//post-images/1580962350063.png" alt="" loading="lazy"><br>
-完全没有想到今年的春节是一个这样的开始。</p>
+        <updated>2020-02-06T05:42:52.000Z</updated>
+        <content type="html"><![CDATA[<p>在我司无聊的年会之后，我就开始为第一个不回家的春节作准备，尤其是我弟也要过来跟我一起过春节。我买一箱酒，2斤羊排、2斤牛肉、给王子买了一箱猫砂、一包猫粮、去菜场买了好几百块钱的菜，甚至还计划租一个「死亡搁浅」跟我弟一起送快递。<br>
+人类真的挺奇怪，现在看着这些计划，好像都是宅在家里的选择。但是在23号之后被迫自我封闭在家之后，所有的计划都变得索然无趣了。我弟拉着ps4和switch，我们一起就玩了一个「分手厨房」之后就再也没有一起玩过了。每一天的日常都变成今天吃什么，晚上吃什么……<br>
+<img src="https://tangxinxu.github.io//post-images/1580970734633.jpg" alt="" loading="lazy"><br>
+上海那几天一直在下雨。</p>
 ]]></content>
     </entry>
 </feed>
