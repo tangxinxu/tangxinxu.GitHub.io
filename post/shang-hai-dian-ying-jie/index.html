@@ -1,109 +1,108 @@
-
-<!DOCTYPE html>
 <html>
-  <head>
-    
-<meta charset="utf-8" >
-
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>上海电影节 | Bored Monkey</title>
-<meta name="description" content="简单且无趣">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://tangxinxu.github.io//favicon.ico?v=1581521993627">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://tangxinxu.github.io//favicon.ico?v=1581524329155">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
 <link rel="stylesheet" href="https://tangxinxu.github.io//styles/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<!-- DEMO JS -->
+<script src="media/scripts/index.js"></script>
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://tangxinxu.github.io/">
-        <img class="avatar" src="https://tangxinxu.github.io//images/avatar.png?v=1581521993627" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://tangxinxu.github.io/">
-        <h1 class="site-title">Bored Monkey</h1>
-      </a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            Bored Monkey
+        </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-            <div class="feature-container" style="background-image: url('https://tangxinxu.github.io//post-images/shang-hai-dian-ying-jie.jpeg')">
-            </div>
-          
-          <h2 class="post-title">上海电影节</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-11-09</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
             
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://tangxinxu.github.io/tag/8-zSl02I9">
-                    自言自语
+                <div class="nav-item">
                     
-                  </a>
-                
-              </span>
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
             
-          </div>
-          <div class="post-content">
-            <h1 id="2018">2018</h1>
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+        </div>
+    </div>
+</nav>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    上海电影节
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2019-11-09 ·
+                    </time>
+                    
+                        <a href="https://tangxinxu.github.io/tag/8-zSl02I9" class="post-tags">
+                            # 自言自语
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <h1 id="2018">2018</h1>
 <h2 id="资产阶级的审慎魅力"><a href="https://movie.douban.com/subject/1303364/">资产阶级的审慎魅力</a></h2>
 <figure data-type="image" tabindex="1"><img src="https://i.loli.net/2019/11/25/l7DNwvb8Ce6umxG.jpg" alt="" loading="lazy"></figure>
 <center>SFC上海影城（长宁区新华路160号）</center>
 选这个电影很大原因是片名看着比较有范，时隔一年，怎么也想不起来电影情节了，只记得那天早上不到7点就坐着地铁出门了，意外的是地铁上人还挺多。
-<h2 id="小城之春"><a href="https://movie.douban.com/subject/1323746/">小城之春</a></h2>
-<figure data-type="image" tabindex="2"><img src="https://i.loli.net/2019/11/25/F7KlgmNAvJu6Vxf.jpg" alt="" loading="lazy"></figure>
+## [小城之春](https://movie.douban.com/subject/1323746/)
+![](https://i.loli.net/2019/11/25/F7KlgmNAvJu6Vxf.jpg)
 <center>天山电影院-虹桥艺术中心旗舰店 剧院厅</center>
 故事很简单，70年过去了还是可以让人感同身受。在电影那个独特的年代背景下，男女主角间的命运和感情尤其独特。
 <h2 id="我曾侍候过库布里克"><a href="https://movie.douban.com/subject/27041779/">我曾侍候过库布里克</a></h2>
-<figure data-type="image" tabindex="3"><img src="https://i.loli.net/2019/11/25/xtsCgpWikcPTIS1.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://i.loli.net/2019/11/25/xtsCgpWikcPTIS1.jpg" alt="" loading="lazy"></figure>
 <center>百丽宫影城（长宁来福士店）</center>
 买票的时候其实是只看见了库布里克就买了。之前完全没有想到库布里克身边有这么一位为他奉献一生的电影工作者，按照主人公自己的说法是，他不是把一生献给了库布里克，而是献给了电影。可能这也是电影的英文名称是filmworks的原因了。
 <h1 id="2019">2019</h1>
@@ -111,63 +110,54 @@
 <p>早上八点开始抢票，七点半就起来拿着手机数着时间等开票。</p>
 <p>今年一共抢到了7场电影。有三场因为周六有事只能转出去了，最冷门的一场是<a href="https://www.notion.so/b63a6ca735304c58ab18fcdf8f912ed5">《布努埃尔之神龟迷宫》</a>直到离上映还有2天时，电影票还没有卖完。最遗憾的是<a href="https://www.notion.so/f66bf5f0ccb54f878a945e7a847a3f5c">《徒手攀岩》</a>。《海上花》我也还挺想去看的，当时估摸着很多人会去抢，就没去凑热闹了。后来被吵到800块钱一张，也是预料之中的事。今年的最喜欢的电影当然是《阿基拉》了。《东京物语》最后还是转出去了，好像也没有什么动力再去电影院看一遍了，虽然是4K修复。《血色清晨》的观影体验最独特，上世纪90年代的电影，有很多讨论的点。《虎口脱险》只是为了延续2018年的片单，选了一部喜剧片，座位位置也很不错，4排中间。谁能想到后面坐了200多斤的胖子，笑点很低，中气十足。他一笑起来，震得我耳膜好痛，观影体验极差。</p>
 <h2 id="阿基拉-akira-1988"><a href="https://movie.douban.com/subject/1302770/">阿基拉 Akira (1988)</a></h2>
-<figure data-type="image" tabindex="4"><img src="https://i.loli.net/2019/11/25/Hgf3P1RdN6IoEql.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://i.loli.net/2019/11/25/Hgf3P1RdN6IoEql.jpg" alt="" loading="lazy"></figure>
 <center>上海美琪大戏院</center>
 <p>2019年在电影院看过的最喜欢的电影。</p>
 <h2 id="血色清晨-1992"><a href="https://movie.douban.com/subject/1306830/">血色清晨 (1992)</a></h2>
-<figure data-type="image" tabindex="5"><img src="https://i.loli.net/2019/11/25/VLfamUOZzg9eSnc.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://i.loli.net/2019/11/25/VLfamUOZzg9eSnc.jpg" alt="" loading="lazy"></figure>
 <center>上海电影博物馆</center>
 <p>之前听播客知道的这部老电影，这次看见了就买到票了。唯一的印象是，90年代的电影真的还不错。</p>
 <h2 id="乡村牧师日记-journal-dun-curé-de-campagne-1951"><a href="https://movie.douban.com/subject/1401618/">乡村牧师日记 Journal d'un curé de campagne (1951)</a></h2>
-<figure data-type="image" tabindex="6"><img src="https://i.loli.net/2019/11/25/NMYk3vhTWEu4GOD.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://i.loli.net/2019/11/25/NMYk3vhTWEu4GOD.jpg" alt="" loading="lazy"></figure>
 <center>曹杨影城</center>
 <p>电影很好看，我睡的很香。</p>
 <h2 id="虎口脱险-la-grande-vadrouille-1966"><a href="https://movie.douban.com/subject/1296909/">虎口脱险 La grande vadrouille (1966)</a></h2>
-<figure data-type="image" tabindex="7"><img src="https://i.loli.net/2019/11/25/heqfMC1QYXBdboc.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://i.loli.net/2019/11/25/heqfMC1QYXBdboc.jpg" alt="" loading="lazy"></figure>
 <center>上海美琪大剧院</center>
-          </div>
+                </div>
+            </article>
         </div>
 
         
-      </div>
 
-      
+        
 
-      <div class="site-footer">
-  <div class="slogan">简单且无趣</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://tangxinxu.github.io//atom.xml" target="_blank">RSS</a>
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">简单且无趣</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a href="https://tangxinxu.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+    hljs.initHighlightingOnLoad()
 </script>
 
 
-
-
-  </body>
+    </div>
+</div>
+</body>
 </html>

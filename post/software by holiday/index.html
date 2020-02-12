@@ -1,99 +1,98 @@
-
-<!DOCTYPE html>
 <html>
-  <head>
-    
-<meta charset="utf-8" >
-
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>🦠假期购买的一些虚拟服务 | Bored Monkey</title>
-<meta name="description" content="简单且无趣">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://tangxinxu.github.io//favicon.ico?v=1581521993627">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://tangxinxu.github.io//favicon.ico?v=1581524329155">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
 <link rel="stylesheet" href="https://tangxinxu.github.io//styles/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<!-- DEMO JS -->
+<script src="media/scripts/index.js"></script>
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://tangxinxu.github.io/">
-        <img class="avatar" src="https://tangxinxu.github.io//images/avatar.png?v=1581521993627" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://tangxinxu.github.io/">
-        <h1 class="site-title">Bored Monkey</h1>
-      </a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            Bored Monkey
+        </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-            <div class="feature-container" style="background-image: url('https://tangxinxu.github.io//post-images/software by holiday.png')">
-            </div>
-          
-          <h2 class="post-title">🦠假期购买的一些虚拟服务</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-02-12</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
             
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://tangxinxu.github.io/tag/8-zSl02I9">
-                    自言自语
+                <div class="nav-item">
                     
-                  </a>
-                
-              </span>
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
             
-          </div>
-          <div class="post-content">
-            <h3 id="plex-pass-499usdmonth">plex pass 4.99usd/month</h3>
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+        </div>
+    </div>
+</nav>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    🦠假期购买的一些虚拟服务
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2020-02-12 ·
+                    </time>
+                    
+                        <a href="https://tangxinxu.github.io/tag/8-zSl02I9" class="post-tags">
+                            # 自言自语
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <h3 id="plex-pass-499usdmonth">plex pass 4.99usd/month</h3>
 <p>nas上装了一个plex，于是在手机和ipad上也装了一个客户端，不过糟心的是，iPad上的plex客户端在播放视频时，nas的cpu就立马飙到90%。上网查了一下，有人说买了plex pass服务之后就可以用ipad硬解播放了，花了5美元买了一个月试了一下，确实nas的cpu就没有在爆表了。可plex的ipad 客户端硬解能力太差了，稍微大一点的电影，就会卡死，而且支持的格式好像也不是很全，传输速度还特别慢。下个月应该不会再续费了。</p>
 <!-- more -->
 <p>还有一点是，plex的照片管理功能不是很好用，远没有群晖自带的moment好用，因为plex的远程服务我一直连接不上，所以通过plex的远程访问就没得用了。🙁</p>
@@ -107,57 +106,47 @@
 <h3 id="️服务-25rmbmonth">✈️服务 25rmb/month</h3>
 <p>之前一直是同时保持两个机场，年前更新一个年付机场后，发现速度还不错，就有想停掉其中一个。谁能想到在疫情期间，那群傻逼挂墙头的防火墙程序员还在加班加点的加高墙。SSR在高墙之下真的是越来越不行了，只好继续备用一个V2ray✈️。</p>
 
-          </div>
+                </div>
+            </article>
         </div>
 
         
-          <div class="next-post">
-            <a class="purple-link" href="https://tangxinxu.github.io/post/xin-guan-fei-yan-xia-de-man-chang-de-chun-jie">
-              <h3 class="post-title">
-                下一篇：🤡漫长的春节
-              </h3>
-            </a>
-          </div>
-          
-      </div>
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://tangxinxu.github.io/post/xin-guan-fei-yan-xia-de-man-chang-de-chun-jie" class="post-title gt-a-link">
+                    🤡漫长的春节
+                </a>
+            </div>
+        
 
-      
+        
 
-      <div class="site-footer">
-  <div class="slogan">简单且无趣</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://tangxinxu.github.io//atom.xml" target="_blank">RSS</a>
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">简单且无趣</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a href="https://tangxinxu.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+    hljs.initHighlightingOnLoad()
 </script>
 
 
-
-
-  </body>
+    </div>
+</div>
+</body>
 </html>
