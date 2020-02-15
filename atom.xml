@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://www.bemonkey.today/</id>
+    <id>http://blog.bemonkey.today/</id>
     <title>Bored Monkey🙈</title>
-    <updated>2020-02-15T10:22:16.716Z</updated>
+    <updated>2020-02-15T10:22:50.063Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://www.bemonkey.today/"/>
-    <link rel="self" href="http://www.bemonkey.today/atom.xml"/>
+    <link rel="alternate" href="http://blog.bemonkey.today/"/>
+    <link rel="self" href="http://blog.bemonkey.today/atom.xml"/>
     <subtitle>简单且无趣</subtitle>
-    <logo>http://www.bemonkey.today/images/avatar.png</logo>
-    <icon>http://www.bemonkey.today/favicon.ico</icon>
+    <logo>http://blog.bemonkey.today/images/avatar.png</logo>
+    <icon>http://blog.bemonkey.today/favicon.ico</icon>
     <rights>All rights reserved 2020, Bored Monkey🙈</rights>
     <entry>
         <title type="html"><![CDATA[🦠假期购买的一些虚拟服务]]></title>
-        <id>http://www.bemonkey.today/post/software by holiday</id>
-        <link href="http://www.bemonkey.today/post/software by holiday">
+        <id>http://blog.bemonkey.today/post/software by holiday</id>
+        <link href="http://blog.bemonkey.today/post/software by holiday">
         </link>
         <updated>2020-02-12T11:41:36.000Z</updated>
         <summary type="html"><![CDATA[<h3 id="plex-pass"><a href="https://www.plex.tv/">Plex Pass</a> 4.99usd/month</h3>
@@ -44,8 +44,8 @@ plex pass其他的功能比如说照片管理也不是很好用，上传速度�
     </entry>
     <entry>
         <title type="html"><![CDATA[🤡漫长的春节]]></title>
-        <id>http://www.bemonkey.today/post/xin-guan-fei-yan-xia-de-man-chang-de-chun-jie</id>
-        <link href="http://www.bemonkey.today/post/xin-guan-fei-yan-xia-de-man-chang-de-chun-jie">
+        <id>http://blog.bemonkey.today/post/xin-guan-fei-yan-xia-de-man-chang-de-chun-jie</id>
+        <link href="http://blog.bemonkey.today/post/xin-guan-fei-yan-xia-de-man-chang-de-chun-jie">
         </link>
         <updated>2020-02-06T05:42:52.000Z</updated>
         <summary type="html"><![CDATA[<p>在我司无聊的年会之后，我就开始为第一个不回家的春节作准备，尤其是我弟也要过来跟我一起过春节。我买一箱酒，2斤羊排、2斤牛肉、给王子买了一箱猫砂、一包猫粮、去菜场买了好几百块钱的菜，甚至还计划租一个「死亡搁浅」跟我弟一起送快递。</p>
@@ -53,14 +53,14 @@ plex pass其他的功能比如说照片管理也不是很好用，上传速度�
         <content type="html"><![CDATA[<p>在我司无聊的年会之后，我就开始为第一个不回家的春节作准备，尤其是我弟也要过来跟我一起过春节。我买一箱酒，2斤羊排、2斤牛肉、给王子买了一箱猫砂、一包猫粮、去菜场买了好几百块钱的菜，甚至还计划租一个「死亡搁浅」跟我弟一起送快递。</p>
 <!-- more -->
 <p>人类真的挺奇怪，现在看着这些计划，好像都是宅在家里的选择。但是在23号之后被迫自我封闭在家之后，所有的计划都变得索然无趣了。我弟拉着ps4和switch，我们一起就玩了一个「分手厨房」之后就再也没有一起玩过了。每一天的日常都变成今天吃什么，晚上吃什么……<br>
-<img src="http://www.bemonkey.today//post-images/1580970734633.jpg" alt="" loading="lazy"><br>
+<img src="http://blog.bemonkey.today//post-images/1580970734633.jpg" alt="" loading="lazy"><br>
 上海那几天一直在下雨，在家里看了各种烂七八糟的综艺和电影。我弟待到初六就回北京去了。我还要等着医院开门去医院拔牙。</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[上海电影节]]></title>
-        <id>http://www.bemonkey.today/post/shang-hai-dian-ying-jie</id>
-        <link href="http://www.bemonkey.today/post/shang-hai-dian-ying-jie">
+        <id>http://blog.bemonkey.today/post/shang-hai-dian-ying-jie</id>
+        <link href="http://blog.bemonkey.today/post/shang-hai-dian-ying-jie">
         </link>
         <updated>2019-11-09T06:47:08.000Z</updated>
         <content type="html"><![CDATA[<h1 id="2018">2018</h1>
