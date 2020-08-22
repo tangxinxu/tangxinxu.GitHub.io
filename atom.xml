@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.bemonkey.today/</id>
     <title>Bored Monkey🙈</title>
-    <updated>2020-05-02T14:23:34.110Z</updated>
+    <updated>2020-08-22T08:18:26.850Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.bemonkey.today/"/>
     <link rel="self" href="https://blog.bemonkey.today/atom.xml"/>
@@ -10,6 +10,74 @@
     <logo>https://blog.bemonkey.today/images/avatar.png</logo>
     <icon>https://blog.bemonkey.today/favicon.ico</icon>
     <rights>All rights reserved 2020, Bored Monkey🙈</rights>
+    <entry>
+        <title type="html"><![CDATA[我常用的软件介绍（一）]]></title>
+        <id>https://blog.bemonkey.today/post/wo-chang-yong-de-ruan-jian-jie-shao-yi/</id>
+        <link href="https://blog.bemonkey.today/post/wo-chang-yong-de-ruan-jian-jie-shao-yi/">
+        </link>
+        <updated>2020-08-22T07:00:11.000Z</updated>
+        <summary type="html"><![CDATA[<p>随着工作中使用的软件越来越多，觉得很有必要介绍一下自己日常使用的一些软件，也算是给自己一个记录。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>随着工作中使用的软件越来越多，觉得很有必要介绍一下自己日常使用的一些软件，也算是给自己一个记录。</p>
+<!-- more -->
+<h2 id="typora"><a href="https://typora.io/">typora</a>（free）</h2>
+<p>最优雅的markdown编辑器没有之一，简单易用，所见即所得markdown编辑软件。还有独特的专注模式。总所周知，markdown的表格体验又多么糟糕，typora在表格时的体验非常棒，提供可视化的UI调整表的列和行。图片插入也可以与图床软件（upic）配合，支持保存时会自动上床至图床软件。还有一些输入模式、比如说专注模式会自动高亮当前输入段落。</p>
+<p><img src="https://txx-1257178398.cos.ap-shanghai.myqcloud.com/uPic/%E6%88%AA%E5%B1%8F2020-08-22%20pm3.57.37.png" alt="截屏2020-08-22pm3.57.37" loading="lazy"><center>专注模式</center></p>
+<p>markdown的语法非常简单，基本上几分钟之内就可以掌握了<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。使用markdown的好处是，文章的排版会非常简单，现在大部分的笔记应用都支持markdown语法。</p>
+<h2 id="upic"><a href="https://apps.apple.com/cn/app/upic-%E5%9B%BE%E5%BA%8A%E5%B7%A5%E5%85%B7/id1510718678">upic</a>（free）</h2>
+<p>最简洁的图床<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>上传软件，远比之前使用过ipic那个订阅制的收费软件好太多了。支持截图上传、剪贴板上传、直接上传。可以直接输出markdown图片链接。支持图片压缩后上传。</p>
+<figure data-type="image" tabindex="1"><img src="https://txx-1257178398.cos.ap-shanghai.myqcloud.com/uPic/%E6%88%AA%E5%B1%8F2020-08-22%20pm4.01.44.png" alt="截屏2020-08-22pm4.01.44" loading="lazy"></figure>
+<h2 id="notion"><a href="www.notion.so">notion</a>（free）</h2>
+<figure data-type="image" tabindex="2"><img src="https://txx-1257178398.cos.ap-shanghai.myqcloud.com/uPic/%E6%88%AA%E5%B1%8F2020-08-22%20pm4.04.34.png" alt="截屏2020-08-22pm4.04.34" loading="lazy"></figure>
+<center>notion</center>
+<p>大名鼎鼎的notion，可能不需要再介绍太多了。数据库型的笔记应用，有非常丰富的笔记模版。全平台支持，UI设计精美。尤其喜欢他们的产品插图风格。去年notion的免费用户还是有block数量限制，今年他们调整免费用户的政策。现在的免费用户已经是无限制数量了。</p>
+<p>notion支持插入的文件种类非常丰富，支持figma、invision、framer文档嵌入，可以在笔记内查看设计文件。但从这一点就可以打满分。</p>
+<p>在制作旅行计划时可以直接嵌入google map的路线图，在电脑上制作完成之后，拿着手机可以直接在笔记内查看Google map的路线图。</p>
+<p>如果还想了解notion的更多使用方法，可以看看少数派这篇文章<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>。写的都非常棒，我在最开始接触的notion的时候给我很大启发。</p>
+<p>不过notion最大的问题可能是国内的访问速度，之前还出现过一度完全无法访问，疑似被gfw拉黑了，虽然过了没几天就全部恢复访问了，但是这种笔记应用如果出现这种问题还是非常让人担心一旦被墙，就完全无法使用了。</p>
+<p>所以目前我的常用笔记应用也不再是notion了，而是obsidian。但是制作旅行文档和一些需要共同完成的文档还是会用notion。</p>
+<h2 id="obsidian"><a href="https://obsidian.md/">obsidian</a>（free）</h2>
+<figure data-type="image" tabindex="3"><img src="https://txx-1257178398.cos.ap-shanghai.myqcloud.com/uPic/%E6%88%AA%E5%B1%8F2020-08-22%20pm4.06.36.png" alt="截屏2020-08-22pm4.06.36" loading="lazy"></figure>
+<center>obsidian 设置页面</center>
+<p>2020年最火的双向链概念的笔记应用<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>之一。与roam research不同的是，它的笔记数据都是存放在自己的硬盘上。数据完全掌握在用户自己手里。避免了被sass软件绑架用户数据的风险。功能方面支持设置日记模板、支持自动关联笔记、预览引用笔记、完全支持markdown语法，准确的说它的笔记都是一个md文件。同样支持使用👆提到的typora编辑。自定义主题等等。<img src="https://txx-1257178398.cos.ap-shanghai.myqcloud.com/uPic/eFK0pc.jpg" alt="eFK0pc" loading="lazy"></p>
+<center>obsidian 笔记网络视图</center>
+<p>关于什么是双向链笔记，我可能很难一两句话就讲清楚。还是推荐去看一看介绍卡片式笔记的文章<sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup>，了解一下它的使用方法。</p>
+<blockquote>
+<p>在 Obsidian 中，則是透過「 Zettelkasten 卡片盒筆記法」的原則，<strong>先建立每一則「原子筆記」，例如一個任務、一個知識片段，然後透過連結功能，建立起一個網路狀的知識系統。</strong><sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup></p>
+</blockquote>
+<p>[[obsidian]]的优点和缺点一样，首先不是全平台支持，其次笔记的同步是需要依靠用户自己借助网盘来完成。当然目前它还是beta版本，0.84版刚刚支持中文界面。其中对一些中文词语的关联也很有问题。如果有一篇文章里有提到英语、它可以自动提示关联，但是如果改成学英语，它就完全不能搜索到了。这个有一点点问题，需要在写作的时候刻意做链接关联。</p>
+<h2 id="rocket-typist"><a href="https://witt-software.com/rockettypist/">Rocket typist</a>和<a href="https://textexpander.com/">textexpander</a></h2>
+<p>这两个软件都是效率输入类软件，他们解决的使用场景都是在一些需要重复性输入文本的时候，可以根据事先设定好的短语自动填写。看上去只是省去了一些⌘C和⌘V的过程，但是工作的过程中很强调一个流畅的过程，最好应该是双手不需要离开键盘就完成所有的文本输入类工作。每一次的⌘C和⌘V其实都会打断着这个思考的过程。</p>
+<p>当然这只是这两个软件最基本的一个功能，等熟悉之后，他们都可以设置一些模版类的文本输入，比如我的工作过程中最常见的是文档更新记录，而这个文档更新记录其实是一个固定格式的段落。类似于下面这种段落格式，就是在textexpander里预设好的模版，输入对应的关键字即可触发模版输入。</p>
+<figure data-type="image" tabindex="4"><img src="https://txx-1257178398.cos.ap-shanghai.myqcloud.com/uPic/%E6%88%AA%E5%B1%8F2020-08-22%20pm4.08.42.png" alt="截屏2020-08-22pm4.08.42" loading="lazy"></figure>
+<center>rocket typist 编辑短语</center>
+<figure data-type="image" tabindex="5"><img src="https://txx-1257178398.cos.ap-shanghai.myqcloud.com/uPic/%E6%88%AA%E5%B1%8F2020-08-22%20pm3.52.14.png" alt="" loading="lazy"></figure>
+<center>textexpander</center>
+<p>这两个软件有什么区别呢，区别就是价格。Rocket typist便宜、UI界面设计更现代，功能也相对更弱，没有多行输入，没有同步功能。textexpander的功能强大，甚至可以使用JavaScript编辑脚本设置模版输入，价格是每年100多元。可以说相当贵了。Rock typist就相对便宜很多，49多元买断<sup class="footnote-ref"><a href="#fn7" id="fnref7">[7]</a></sup>。</p>
+<hr>
+<p>以上就是平时最常用的几个文本编辑类软件。</p>
+<hr>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>https://github.com/younghz/Markdown <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://sspai.com/post/40499">嗯，图片就交给它了</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="https://sspai.com/post/52176">Notion 使用详解：来自未来的笔记协作工具</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p><a href="https://sspai.com/post/60588">Roam Research Report ——理念与功能</a> <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn5" class="footnote-item"><p><a href="https://matters.news/@onelight/zettelkasten%E5%8D%A1%E7%89%87%E7%9B%92%E8%A3%A1%E6%9C%89%E4%BB%80%E9%BA%BC%E7%A5%9E%E5%A5%87%E9%AD%94%E6%B3%95-%E5%8D%A1%E7%89%87%E7%9B%92%E7%AD%86%E8%A8%98%E6%B3%95-2-bafyreiakrxwq7r4jjprhe5ka44otlrkaxndhbt2dyl3azm567qprwkygpe">Zettelkasten卡片盒裡有什麼神奇魔法？</a> <a href="#fnref5" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn6" class="footnote-item"><p><a href="https://www.playpcesor.com/2020/06/obsidian.html">Obsidian 免費單機軟體實踐卡片盒筆記法，建立知識連結網路系統</a> <a href="#fnref6" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn7" class="footnote-item"><p><a href="https://item.taobao.com/item.htm?id=586722734481">淘宝链接</a> <a href="#fnref7" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[👽凝视、女权和副本]]></title>
         <id>https://blog.bemonkey.today/post/Altered Carbon/</id>
@@ -86,35 +154,35 @@
 </ol>
 <p>按照这个方法做一个应急包就非常简单了。首先自己现在身处城市之中，能遇到的最大的风险可能就是火灾和地震，为此我准备了一个25升的背包，里面有以下物资：</p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9264052"><label class="task-list-item-label" for="task-item-9264052"> 急救包（具体内容可参考维基词条）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4233628"><label class="task-list-item-label" for="task-item-4233628"> 默克家庭医学手册（电子版，ios和安卓都有官方app可以下载）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1765561"><label class="task-list-item-label" for="task-item-1765561"> 太阳能发电板100w（可以给手机、电脑、充电宝、等其它电器充电）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3140103"><label class="task-list-item-label" for="task-item-3140103"> 罐头食品6个</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-578831"><label class="task-list-item-label" for="task-item-578831"> 水一升和净水片若干</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6406232"><label class="task-list-item-label" for="task-item-6406232"> 大功率充电宝20000毫安以上</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5357231"><label class="task-list-item-label" for="task-item-5357231"> 手摇收音机</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4506675"><label class="task-list-item-label" for="task-item-4506675"> 紧急联系卡（包含个人基本健康信息、血型、过敏药物、紧急联系人、附近的防空救援场所等…… ）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2268808"><label class="task-list-item-label" for="task-item-2268808"> 纸和笔（纸需要防水袋，笔可以是战术笔）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3686145"><label class="task-list-item-label" for="task-item-3686145"> 重要的凭证（护照、身份证、银行卡、身份证复印件可以准备几份）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6264347"><label class="task-list-item-label" for="task-item-6264347"> 密封防水袋（保存纸质物品）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6073518"><label class="task-list-item-label" for="task-item-6073518"> 急救毯（保温，很便宜）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9531920"><label class="task-list-item-label" for="task-item-9531920"> 折叠水杯（喝水）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-560604"><label class="task-list-item-label" for="task-item-560604"> 干电池若干</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2582580"><label class="task-list-item-label" for="task-item-2582580"> 雨衣（防水）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5341680"><label class="task-list-item-label" for="task-item-5341680"> 安全哨（增加救援几率、应日常随身携带）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1026472"><label class="task-list-item-label" for="task-item-1026472"> 现金（电子支付不可靠）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2798785"><label class="task-list-item-label" for="task-item-2798785"> 手表（卡西欧十年电力）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7265151"><label class="task-list-item-label" for="task-item-7265151"> 当地纸质地图（电子产品不可靠、电力紧缺）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7743171"><label class="task-list-item-label" for="task-item-7743171"> 卫生纸（清洁）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4329760"><label class="task-list-item-label" for="task-item-4329760"> 扎带（用来捆绑物品）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8429262"><label class="task-list-item-label" for="task-item-8429262"> 头灯和手电筒（照明）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9950800"><label class="task-list-item-label" for="task-item-9950800"> 衣服一套</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-779689"><label class="task-list-item-label" for="task-item-779689"> 维生素</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5158703"><label class="task-list-item-label" for="task-item-5158703"> GPS或指南针</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3494559"><label class="task-list-item-label" for="task-item-3494559"> 三通数据线</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3252229"><label class="task-list-item-label" for="task-item-3252229"> 伞绳</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5240914"> 最最重要的呼吸口罩（火灾时必备的物品）<br>
-<label class="task-list-item-label" for="task-item-5240914"> 最最重要的呼吸口罩（火灾时必备的物品）
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5271204"><label class="task-list-item-label" for="task-item-5271204"> 急救包（具体内容可参考维基词条）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8099417"><label class="task-list-item-label" for="task-item-8099417"> 默克家庭医学手册（电子版，ios和安卓都有官方app可以下载）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2232486"><label class="task-list-item-label" for="task-item-2232486"> 太阳能发电板100w（可以给手机、电脑、充电宝、等其它电器充电）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4567069"><label class="task-list-item-label" for="task-item-4567069"> 罐头食品6个</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3825124"><label class="task-list-item-label" for="task-item-3825124"> 水一升和净水片若干</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6015706"><label class="task-list-item-label" for="task-item-6015706"> 大功率充电宝20000毫安以上</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4366892"><label class="task-list-item-label" for="task-item-4366892"> 手摇收音机</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4009248"><label class="task-list-item-label" for="task-item-4009248"> 紧急联系卡（包含个人基本健康信息、血型、过敏药物、紧急联系人、附近的防空救援场所等…… ）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9142842"><label class="task-list-item-label" for="task-item-9142842"> 纸和笔（纸需要防水袋，笔可以是战术笔）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1789563"><label class="task-list-item-label" for="task-item-1789563"> 重要的凭证（护照、身份证、银行卡、身份证复印件可以准备几份）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8873791"><label class="task-list-item-label" for="task-item-8873791"> 密封防水袋（保存纸质物品）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8290249"><label class="task-list-item-label" for="task-item-8290249"> 急救毯（保温，很便宜）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2127041"><label class="task-list-item-label" for="task-item-2127041"> 折叠水杯（喝水）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-625818"><label class="task-list-item-label" for="task-item-625818"> 干电池若干</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-985282"><label class="task-list-item-label" for="task-item-985282"> 雨衣（防水）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3033439"><label class="task-list-item-label" for="task-item-3033439"> 安全哨（增加救援几率、应日常随身携带）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9755851"><label class="task-list-item-label" for="task-item-9755851"> 现金（电子支付不可靠）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6614426"><label class="task-list-item-label" for="task-item-6614426"> 手表（卡西欧十年电力）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8769990"><label class="task-list-item-label" for="task-item-8769990"> 当地纸质地图（电子产品不可靠、电力紧缺）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7622006"><label class="task-list-item-label" for="task-item-7622006"> 卫生纸（清洁）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8597832"><label class="task-list-item-label" for="task-item-8597832"> 扎带（用来捆绑物品）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8748542"><label class="task-list-item-label" for="task-item-8748542"> 头灯和手电筒（照明）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5335254"><label class="task-list-item-label" for="task-item-5335254"> 衣服一套</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5557825"><label class="task-list-item-label" for="task-item-5557825"> 维生素</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7423544"><label class="task-list-item-label" for="task-item-7423544"> GPS或指南针</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9204990"><label class="task-list-item-label" for="task-item-9204990"> 三通数据线</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-461326"><label class="task-list-item-label" for="task-item-461326"> 伞绳</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3774008"> 最最重要的呼吸口罩（火灾时必备的物品）<br>
+<label class="task-list-item-label" for="task-item-3774008"> 最最重要的呼吸口罩（火灾时必备的物品）
 暂时想到就这些了，之后在采购的过程中如有更好的物资，再补充进来。</label></li>
 </ul>
 <p>Cover image by Dawn Armfield on Unsplash</p>
